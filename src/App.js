@@ -1,11 +1,16 @@
-import './App.css';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.min";
+import NavBar from "./Components/Nav Bar";
+import Highlight from "./Components/Highlight";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-
-      </header>
+      <body className="App-header">
+        <NavBar />
+        <Highlight />
+      </body>
     </div>
   );
 }
